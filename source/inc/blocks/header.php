@@ -3,9 +3,9 @@
     <div class="container">
         <div class="row">
             <div class="pull-left">
-                <div class="logo">
+                <a class="logo" href="/">
                     <img src="/assets/img/elm/logo.png" alt=""/>
-                </div>
+                </a>
             </div>
             <div class="pull-right">
                 <div class="lang">
@@ -23,7 +23,7 @@
         <nav class="row">
             <ul class="header-menu">
                 <li class="header-menu__item">
-                    <a href="#">
+                    <a href="/arcitecture.php">
                         <span class="header-menu__item-img"><span class="ico-house"></span></span>
                         <span class="header-menu__item-text">Архитектура и дизайн</span>
                     </a>

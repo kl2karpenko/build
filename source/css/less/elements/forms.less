@@ -1,0 +1,54 @@
+/* ---------------------------------------------------------------------------------
+
+ * File :           forms.less
+ * Description :    Styles for main header
+ * Project :        ubc
+ * Author :         Karpenko Lilya
+
+ --------------------------------------------------------------------------------------- */
+
+.form {
+    &__input {
+        background-color: #fff;
+        border: 0;
+        padding: 3px 4px;
+        color: @text-dark;
+        outline: none;
+        height: 25px;
+        width: 100%;
+        .border-radius(2px);
+        &:focus {
+            .box-shadow(~"0 0px 2px @{text-dark}");
+        }
+    }
+    &__textarea {
+        background-color: #fff;
+        border: 0;
+        padding: 3px 4px;
+        color: @text-dark;
+        outline: none;
+        min-height: 50px;
+        width: 100%;
+        resize: none;
+        .border-radius(2px);
+        &:focus {
+            .box-shadow(~"0 0px 2px @{text-dark}");
+        }
+    }
+    &__label {
+        color: @text-dark;
+        font-family: @font-ptsans;
+        font-weight: normal;
+        font-size: 16px;
+        display: block;
+        margin-bottom: 3px;
+    }
+    &__btn {
+        width: 100%;
+        .transition(all 0.5s ease-in-out 0s);
+        &:hover {
+            background-color: #fff;
+            color: @text-blue-light;
+        }
+    }
+}

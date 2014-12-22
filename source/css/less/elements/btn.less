@@ -1,0 +1,38 @@
+/* ---------------------------------------------------------------------------------
+
+ * File :           btn.less
+ * Description :    Styles for buttons in project
+ * Project :        ubc
+ * Author :         Karpenko Lilya
+
+ --------------------------------------------------------------------------------------- */
+
+.btn {
+    &-orange {
+        .border-radius(5px);
+        background-color: @brand-orange;
+        color: #fff;
+        font-family: @font-ptsans-bold;
+
+        &.btn-md {
+            height: 45px;
+            line-height: 31px;
+
+            font-size: 20px;
+        }
+    }
+    &-blue {
+        .border-radius(5px);
+        background-color: transparent;
+        border: 1px solid @text-blue-light;
+        color: @text-dark;
+        font-family: @font-ptsans-bold;
+
+        &.btn-md {
+            height: 45px;
+            line-height: 31px;
+
+            font-size: 20px;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+/* ---------------------------------------------------------------------------------
+
+ * File :           pagination.less
+ * Description :    Styles for main pagination
+ * Project :        ubc
+ * Author :         Karpenko Lilya
+
+ --------------------------------------------------------------------------------------- */
+
+.pagination {
+    text-align: center;
+    display: block;
+    margin: 70px 0 0;
+
+    &-wrap {
+        display: inline-block;
+        margin: 0 auto;
+        height: 40px;
+    }
+
+    &-item {
+        float: left;
+        height: 36px;
+        width: auto;
+        margin-top: 2px;
+        background-color: #ebebeb;
+        color: #7b7b7b;
+        font-family: @font-ptsans-bold;
+        font-size: 16px;
+        border: 1px solid transparent;
+        margin-right: 3px;
+        .transition(all 0.5s ease-in-out 0s);
+        &:last-child {
+            margin-right: 0;
+        }
+        
+        a {
+            text-decoration: none;
+            display: block;
+            padding: 6px 18px 8px;
+            color: #7b7b7b;
+            font-family: @font-ptsans-bold;
+            font-size: 16px;
+            &:hover {
+                color: @text-blue-light;
+            }
+        }
+
+        &._nn {
+         width: auto;
+        }
+        
+        &.active,
+        &:hover {
+            background-color: #fff;
+            border: 1px solid @text-blue-light;
+        }
+    }
+}
