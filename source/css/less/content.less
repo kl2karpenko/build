@@ -1,0 +1,131 @@
+/* ---------------------------------------------------------------------------------
+
+ * File :           content.less
+ * Description :    Main content styles
+ * Project :        ubc
+ * Author :         Karpenko Lilya
+
+ --------------------------------------------------------------------------------------- */
+
+.content {
+
+  &-center {
+    margin: 60px 0;
+  }
+
+  &-fieldset {
+    text-transform: uppercase;
+    color: @text-dark;
+    font-size: 22px;
+    text-align: center;
+    padding: 0 18px;
+    position: relative;
+
+    span {
+      position: relative;
+      z-index: 1;
+
+      background-color: #fff;
+      padding: 0 18px;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 50%;
+      margin-top: -2px;
+      z-index: -1;
+      border-top: 2px solid #cecece;
+    }
+  }
+
+  &-partners {
+
+    position: relative;
+    height: 180px;
+    margin: 0 -15px;
+    margin-bottom: 50px;
+
+    @op: 0.85;
+
+    &-wrap {
+      display: table-cell;
+      height: 180px;
+      width: 196px;
+      vertical-align: middle;
+      text-align: center;
+
+      -webkit-transition: all 0.4s linear;
+      transition: all 0.4s linear;
+
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+      filter: alpha(opacity=85);
+      -moz-opacity: @op;
+      -khtml-opacity: @op;
+      opacity: @op;
+
+      img {
+        display: block;
+        width: 100%;
+      }
+    }
+
+    &:hover {
+      .content-partners-wrap {
+        -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+        filter: alpha(opacity=100);
+        -moz-opacity: 1;
+        -khtml-opacity: 1;
+        opacity: 1;
+      }
+    }
+
+  }
+}
+
+.partners {
+  margin: 95px auto 45px;
+}
+
+.carousel {
+  height: 450px;
+
+  &-caption {
+    bottom: 0;
+    top: 121px;
+    left: 14%;
+    right: 14%;
+
+    .text {
+      font-size: 60px;
+      line-height: 61px;
+
+      margin-bottom: 35px;
+    }
+  }
+
+  .item {
+    img {
+      height: 450px;
+      max-width: auto;
+    }
+  }
+
+  .glyphicon {
+    width: 25px;
+    height: 50px;
+    &.glyphicon-chevron-left {
+      .sprite(-26px,0);
+    }
+    &.glyphicon-chevron-right {
+      .sprite(0,0);
+    }
+    &:before {
+      display: none;
+    }
+  }
+
+
+}

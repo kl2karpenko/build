@@ -1,0 +1,136 @@
+/* ---------------------------------------------------------------------------------
+
+ * File :           header.less
+ * Description :    Styles for main header
+ * Project :        ubc
+ * Author :         Karpenko Lilya
+
+ --------------------------------------------------------------------------------------- */
+
+.header {
+  margin: 30px 0;
+
+  .logo {
+
+    img {
+      display: block;
+      width: 100%;
+    }
+
+  }
+
+  &-lang {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+    &__item {
+      float: left;
+      list-style-type: none;
+      margin-left: 9px;
+
+      a {
+        display: block;
+        text-decoration: none;
+        width: 28px;
+        height: 28px;
+
+        color: #323946;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+
+        -webkit-transition: all 0.4s linear;
+        transition: all 0.4s linear;
+      }
+
+      &.active,
+      &:hover {
+        a {
+          color: #fff;
+          background-color: @text-blue-light;
+        }
+      }
+    }
+    
+  }
+
+  nav {
+    margin: 30px -15px 0;
+  }
+
+  &-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+    &__item {
+      float: left;
+      list-style-type: none;
+      margin-right: 9px;
+      &:last-child {
+        margin-right: 0;
+      }
+
+      a {
+        text-decoration: none;
+        color: @text-dark;
+      }
+
+      &-img {
+        span {
+          background-image: url("/assets/img/sprites/spr-menu.png");
+          display: inline-block;
+          margin-right: 6px;
+        }
+        display: table-cell;
+        vertical-align: middle;
+
+        width: 20px;
+        height: 20px;
+
+        text-align: center;
+      }
+
+      &-text {
+        display: table-cell;
+        color: @text-dark;
+        font-size: 12px;
+        height: 20px;
+        vertical-align: middle;
+      }
+
+    }
+
+  }
+
+}
+
+.ico-bulb {
+  background-position: -0px -0px; width: 14px; height: 20px;
+}
+.ico-kist {
+  background-position: -0px -23px; width: 13px; height: 18px;
+}
+.ico-exchange {
+  background-position: -0px -44px; width: 16px; height: 18px;
+}
+.ico-house {
+  background-position: -0px -65px; width: 20px; height: 17px
+}
+.ico-fire {
+  background-position: -0px -85px; width: 15px; height: 18px
+}
+.ico-info {
+  background-position: -0px -106px; width: 20px; height: 15px
+}
+.ico-portfolio {
+  background-position: -0px -124px; width: 18px; height: 18px;
+}
+.ico-umbrella {
+  background-position: -0px -145px; width: 18px; height: 18px
+}
