@@ -12,6 +12,7 @@
 <![endif]-->
 <script type="text/javascript" async src="/assets/js/html5shiv-printshiv.js"></script>
 <script type="text/javascript" async src="/assets/js/respond.min.js"></script>
+<script type="text/javascript" async src="/assets/js/jquery-1.11.2.min.js"></script>
 <!--<link href="/assets/css/main.css" rel="stylesheet" type="text/css"/>-->
 
 <link rel="stylesheet/less" type="text/css" href="/source/css/main.less" />

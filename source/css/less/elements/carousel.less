@@ -1,0 +1,101 @@
+/* ---------------------------------------------------------------------------------
+
+ * File :           carousel.less
+ * Description :    Styles for main header
+ * Project :        ubc
+ * Author :         Karpenko Lilya
+
+ --------------------------------------------------------------------------------------- */
+
+.carousel {
+
+  .content & {
+    height: 450px;
+  }
+
+  &-caption {
+    bottom: 0;
+    top: 121px;
+    left: 14%;
+    right: 14%;
+
+    .text {
+      font-size: 60px;
+      line-height: 61px;
+
+      margin-bottom: 35px;
+    }
+  }
+
+  .item {
+    img {
+      height: 450px;
+      display: block;
+      @media screen and (min-width: 1240px) {
+        width: 100%;
+      }
+    }
+  }
+
+  .glyphicon {
+    width: 25px;
+    height: 50px;
+    &.glyphicon-chevron-left {
+      .sprite(-26px,0);
+    }
+    &.glyphicon-chevron-right {
+      .sprite(0,0);
+    }
+    &:before {
+      display: none;
+    }
+  }
+
+  &._blue {
+    height: 264px;
+    .carousel-control {
+      width: 143px;
+      background-image: none;
+      background-color: @text-blue-light;
+    }
+    .carousel-inner {
+      height: 264px;
+      margin: 0 150px;
+      width: auto;
+      a {
+        display: block;
+        position: relative;
+        height: 264px;
+        margin-right: -25px;
+      }
+    }
+    .carousel-caption {
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      padding: 0;
+    }
+  }
+  
+  &-text {
+    font-family: @font-scada;
+    font-size: 16px;
+    height: 40px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: left;
+    line-height: 40px;
+    text-indent: 17px;
+    span {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
