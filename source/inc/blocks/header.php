@@ -21,6 +21,9 @@
             </div>
         </div>
         <nav class="row">
+            <a id="navbar-toggle" class="navbar-toggle" data-toggle="collapse" data-target=".header-menu">
+                <span class="icon-bar"></span>
+            </a>
             <ul class="header-menu">
                 <li class="header-menu__item">
                     <a href="/arcitecture.php">

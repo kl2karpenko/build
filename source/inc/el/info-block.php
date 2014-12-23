@@ -3,7 +3,7 @@
         <div class="col-xs-14">
             <div class="row">
                 <div class="col-xs-5">
-                    <div class="info__item-img"><img src="/assets/img/elm/img/items/<?=$info['img'][$j]?>.png" alt=""/></div>
+                    <a href="#"><div class="info__item-img"><img src="/assets/img/elm/img/items/<?=$info['img'][$j]?>.png" alt=""/></div></a>
                 </div>
                 <div class="col-xs-10">
                     <div class="info__item-info">
