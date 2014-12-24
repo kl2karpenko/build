@@ -55,6 +55,7 @@
   .item {
     img {
       height: 450px;
+      max-width: 100%;
       display: block;
       @media screen and (min-width: @screen-lg) {
         width: 100%;
@@ -82,6 +83,9 @@
       width: 143px;
       background-image: none;
       background-color: @text-blue-light;
+      @media screen and (max-width: @screen-md) {
+        width: 50px;
+      }
     }
     .carousel-inner {
       height: 264px;
@@ -92,6 +96,9 @@
         position: relative;
         height: 264px;
         margin-right: -25px;
+      }
+      @media screen and (max-width: @screen-md) {
+        margin: 0 56px;
       }
     }
     .carousel-caption {

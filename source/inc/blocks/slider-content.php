@@ -5,7 +5,7 @@
         <div class="item active">
             <div class="carousel-caption">
                 <div class="row">
-                    <div class="col-xs-5">
+                    <div class="col-xs-15 col-sm-5">
                         <a href="#" class="carousel-wrap">
                             <div class="carousel-img"><img src="/assets/img/elm/img/else/img-01.png" alt=""/></div>
                             <div class="carousel-text">
@@ -14,7 +14,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-xs-5">
+                    <div class="col-xs-5 col-sm-5 hidden-xs">
                         <a href="#" class="carousel-wrap">
                             <div class="carousel-img"><img src="/assets/img/elm/img/else/img-02.png" alt=""/></div>
                             <div class="carousel-text">
@@ -23,7 +23,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-xs-5">
+                    <div class="col-xs-5 col-sm-5 hidden-xs">
                         <a href="#" class="carousel-wrap">
                             <div class="carousel-img"><img src="/assets/img/elm/img/else/img-03.png" alt=""/></div>
                             <div class="carousel-text">
@@ -38,7 +38,7 @@
         <div class="item">
             <div class="carousel-caption">
                 <div class="row">
-                    <div class="col-xs-5">
+                    <div class="col-xs-15 col-sm-5">
                         <a href="#" class="carousel-wrap">
                             <div class="carousel-img"><img src="/assets/img/elm/img/else/img-02.png" alt=""/></div>
                             <div class="carousel-text">
@@ -47,7 +47,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-xs-5">
+                    <div class="col-xs-5 col-sm-5 hidden-xs">
                         <a href="#" class="carousel-wrap">
                             <div class="carousel-img"><img src="/assets/img/elm/img/else/img-03.png" alt=""/></div>
                             <div class="carousel-text">
@@ -56,7 +56,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-xs-5">
+                    <div class="col-xs-5 col-sm-5 hidden-xs">
                         <a href="#" class="carousel-wrap">
                             <div class="carousel-img"><img src="/assets/img/elm/img/else/img-01.png" alt=""/></div>
                             <div class="carousel-text">

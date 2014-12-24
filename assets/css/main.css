@@ -6372,6 +6372,7 @@ button.close {
 }
 .carousel .item img {
   height: 450px;
+  max-width: 100%;
   display: block;
 }
 @media screen and (min-width: 1350px) {
@@ -6402,6 +6403,11 @@ button.close {
   background-image: none;
   background-color: #2ca7dc;
 }
+@media screen and (max-width: 1110px) {
+  .carousel._blue .carousel-control {
+    width: 50px;
+  }
+}
 .carousel._blue .carousel-inner {
   height: 264px;
   margin: 0 150px;
@@ -6412,6 +6418,11 @@ button.close {
   position: relative;
   height: 264px;
   margin-right: -25px;
+}
+@media screen and (max-width: 1110px) {
+  .carousel._blue .carousel-inner {
+    margin: 0 56px;
+  }
 }
 .carousel._blue .carousel-caption {
   left: 0;
@@ -6687,6 +6698,12 @@ body {
   color: #323946;
   font-family: 'PTSansBold';
   font-size: 40px;
+}
+@media screen and (max-width: 1110px) {
+  .content-header-text {
+    display: block;
+    text-align: center;
+  }
 }
 .content-header ~ .row p img {
   margin-right: 19px;
@@ -7073,6 +7090,14 @@ body {
   height: 22px;
   font-family: 'Font_else';
 }
+.header-menu__item:first-child {
+  margin-left: -10px;
+}
+@media (max-width: 1350px) {
+  .header-menu__item:first-child {
+    margin-left: 0;
+  }
+}
 .header-menu__item:last-child {
   margin-right: 0;
 }
@@ -7082,6 +7107,7 @@ body {
     margin-right: 0;
     height: 22px;
     margin-bottom: 5px;
+    margin-left: 0;
     text-align: right;
   }
 }
@@ -7091,6 +7117,7 @@ body {
     height: 22px;
     padding-left: 4px;
     margin-right: 0;
+    margin-left: 0;
     width: 50%;
     box-sizing: border-box;
     -webkitbox-sizing: border-box;

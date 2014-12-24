@@ -30,7 +30,7 @@
 
                     <div class="row">
 
-                        <h1 class="content-header">
+                        <h1 class="content-header col-xs-15">
                             <span class="content-header-text">Заголовок про строительство</span>
                         </h1>
                     </div>
@@ -45,7 +45,12 @@
                 <div class="container">
 
                     <div class="row">
-                        <div class="col-xs-9">
+                        <div class="col-xs-15 col-sm-7 pull-right content-text-img">
+                            <p>
+                                <img src="/assets/img/elm/img/pic-01.jpg" alt=""/>
+                            </p>
+                        </div>
+                        <div class="content-text">
                             <p>
                                 Наші можливості <br/>
                                 Ми представляємо інтереси групи торговельно-будівельних компаній, які спеціалізуються на професійному виконанні робіт з улаштування та реконструкції скатних і плоских покрівель, та гідроізоляції об’єктів будь-якої складності.
@@ -61,11 +66,6 @@
                                 <li>наявність сертифікованої, професійної матеріально-технічної бази, яка дозволяє реалізовувати проекти будь-якої складності, у тому числі з урахуванням дефіциту часу;</li>
                                 <li>наявність всього необхідного професійного інструменту та обладнання.</li>
                             </ul>
-                        </div>
-                        <div class="col-xs-6">
-                            <p>
-                                <img src="/assets/img/elm/img/pic-01.jpg" alt=""/>
-                            </p>
                         </div>
                     </div>
 
