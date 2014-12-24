@@ -6704,6 +6704,9 @@ body {
     display: block;
     text-align: center;
   }
+  .content-header-img + .content-header-text {
+    display: inline-block;
+  }
 }
 .content-header ~ .row p img {
   margin-right: 19px;
