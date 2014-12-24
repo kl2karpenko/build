@@ -7,7 +7,7 @@
                     <img src="/assets/img/elm/logo.png" alt=""/>
                 </a>
             </div>
-            <div class="pull-right">
+            <div class="pull-right header-lang-wrap">
                 <div class="lang">
                     <ul class="header-lang">
                         <li class="header-lang__item">
@@ -18,13 +18,13 @@
                         </li>
                     </ul>
                 </div>
+                <a id="navbar-toggle" class="navbar-toggle" data-toggle="collapse" data-target=".header-menu">
+                    <span class="icon-bar"></span>
+                </a>
             </div>
         </div>
         <nav class="row">
-            <a id="navbar-toggle" class="navbar-toggle" data-toggle="collapse" data-target=".header-menu">
-                <span class="icon-bar"></span>
-            </a>
-            <ul class="header-menu">
+            <ul class="header-menu col-xs-15">
                 <li class="header-menu__item">
                     <a href="/arcitecture.php">
                         <span class="header-menu__item-img"><span class="ico-house"></span></span>

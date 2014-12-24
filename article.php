@@ -24,7 +24,7 @@
             <?php include 'source/inc/blocks/header.php'; ?>
 
             <!-- Center info -->
-            <div class="content-center">
+            <div class="content-center article">
 
                 <div class="container">
 
@@ -45,7 +45,7 @@
                 <div class="container">
 
                     <div class="row">
-                        <div class="col-xs-8">
+                        <div class="col-xs-9">
                             <p>
                                 Наші можливості <br/>
                                 Ми представляємо інтереси групи торговельно-будівельних компаній, які спеціалізуються на професійному виконанні робіт з улаштування та реконструкції скатних і плоских покрівель, та гідроізоляції об’єктів будь-якої складності.
@@ -62,7 +62,7 @@
                                 <li>наявність всього необхідного професійного інструменту та обладнання.</li>
                             </ul>
                         </div>
-                        <div class="col-xs-7">
+                        <div class="col-xs-6">
                             <p>
                                 <img src="/assets/img/elm/img/pic-01.jpg" alt=""/>
                             </p>

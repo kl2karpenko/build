@@ -39,7 +39,12 @@
 
                         <!-- Include partners blocks -->
                         <?php
-                            for ($i = 1; $i < 11; $i++) { include 'source/inc/el/partners.php'; }
+                            for ($i = 1; $i < 6; $i++) { include 'source/inc/el/partners.php'; }
+                        ?>
+                        <div class="clearfix hidden-xs hidden-sm hidden-md"></div>
+                        <!-- Include partners blocks -->
+                        <?php
+                            for ($i = 6; $i < 11; $i++) { include 'source/inc/el/partners.php'; }
                         ?>
 
                     </div>

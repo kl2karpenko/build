@@ -33,12 +33,22 @@
     top: 121px;
     left: 14%;
     right: 14%;
+    @media (max-width: @screen-md) {
+      top: 0px;
+    }
+    @media (max-width: @screen-xs) {
+      font-size: 50px;
+    }
 
     .text {
       font-size: 60px;
       line-height: 61px;
+      overflow: hidden;
 
       margin-bottom: 35px;
+      @media (max-width: @screen-md) {
+        max-height: 73%;
+      }
     }
   }
 
@@ -46,7 +56,7 @@
     img {
       height: 450px;
       display: block;
-      @media screen and (min-width: 1240px) {
+      @media screen and (min-width: @screen-lg) {
         width: 100%;
       }
     }

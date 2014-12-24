@@ -1,4 +1,3 @@
-
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=8">
 <meta name="description" content="">
@@ -15,18 +14,4 @@
 <script type="text/javascript" async src="/assets/js/jquery-1.11.2.min.js"></script>
 <!--<link href="/assets/css/main.css" rel="stylesheet" type="text/css"/>-->
 
-<link rel="stylesheet/less" type="text/css" href="/source/css/main.less" />
-
-<!-- TEMP -->
-<script>
-    less = {
-        env: "development",
-        logLevel: 2,
-        async: false,
-        fileAsync: false,
-        poll: 1000,
-        dumpLineNumbers: "comments",
-        relativeUrls: false
-    };
-</script>
-<script src="/less-1.7.3.min.js"></script>
+<link rel="stylesheet/less" type="text/css" href="/assets/css/main.css" />

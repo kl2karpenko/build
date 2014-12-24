@@ -17,15 +17,37 @@
         img {
             float: right;
             margin-right: -15px;
+            max-width: 100%;
+          @media screen and (max-width: @screen-sm) {
+            float: left;
+          }
         }
     }
+  
+  &-text {
+    @media screen and (max-width: @screen-sm) {
+      margin: 15px;
+    }    
+    &-img {
+      @media screen and (max-width: @screen-sm) {
+        margin-bottom: 15px;
+        text-align: center;
+        img {
+          float: none !important;margin:0 auto;
+        }
+      }
+    }
+  }
 
   &-center {
-    margin: 60px 0;
+    margin: 57px 0 64px;
+    &.article {
+      margin-top: 42px;
+    }
   }
 
     &-header {
-        margin: 0 0 25px 0;
+        margin: 0 0 11px 0;
         &-img {
             width: 82px;
             display: table-cell;
@@ -39,6 +61,9 @@
             font-family: @font-ptsans-bold;
             font-size: 40px;
         }
+      & ~ .row p img {
+        margin-right: 19px;
+      }
     }
 
   &-fieldset {
@@ -80,8 +105,60 @@
 
   &-partners {
 
+    @media (min-width: @screen-lg) {
+      &.partners-1 {
+        margin-left: 68px;
+        margin-top: 40px;
+      }
+      &.partners-2 {
+        margin-left: 50px;
+        margin-top: 49px;
+      }
+      &.partners-3 {
+        margin-left: -10px;
+        margin-top: 42px;
+      }
+      &.partners-4 {
+        margin-left: -49px;
+        margin-top: 40px;
+      }
+      &.partners-5 {
+        margin-left: -85px;
+        margin-top: 40px;
+      }
+      &.partners-6 {
+        margin-left: 60px;
+        margin-top: 5px;
+      }
+      &.partners-7 {
+        margin-left: 35px;
+        margin-top: 7px;
+      }
+      &.partners-8 {
+        margin-left: -8px;
+        margin-top: 8px;
+      }
+      &.partners-9 {
+        margin-left: -43px;
+        margin-top: 9px;
+      }
+      &.partners-10 {
+        margin-left: -72px;
+        margin-top: 12px;
+      }
+    }
+
+    @media (max-width: @screen-md) {
+      margin: 0 0%;
+      height: 180px;
+    }
+    @media (max-width: @screen-sm) {
+      margin: 0 11%;
+      height: 180px;
+    }
+
     position: relative;
-    height: 180px;
+    height: 133px;
     margin: 0 -15px;
     margin-bottom: 50px;
 
@@ -115,22 +192,23 @@
     
     &-block {
         border-top: 1px solid @brand-grey;
-        padding: 50px 0;
+        padding: 50px 0 0px;
+        margin-bottom: -7px;
     }
 
   &-slider {
-    margin-bottom: 58px;
+    margin-bottom: 45px;
   }
 }
 
 .partners {
-  margin: 95px auto 45px;
+  margin: 38px auto 45px;
 }
 
 .forums {
-    margin-top: 70px;
+    margin-top: 39px;
     &__list {
-        padding: 50px 0;
+        padding: 50px 0 70px;
     }
     &__item {
         &-a {
@@ -149,7 +227,7 @@
         }
         &-img {
             height: 190px;
-            width: 186px;
+            width: 178px;
             display: table-cell;
             vertical-align: middle;
             text-align: center;
@@ -190,33 +268,51 @@
             font-family: @font-ptsans-bold;
             font-size: 20px;
             text-align: center;
+            margin-top: -30px;
+            @media screen and (max-width: @screen-sm) {
+              text-align: left;
+              text-indent: 30px;
+            }
         }
     }
 }
 
 .info {
     &__item {
-        margin: 40px 0;
+        margin: 40px 0 70px;
 
         &-info {
             padding-left: 42px;
             position: relative;
             height: 250px;
+          @media screen and (min-width: @screen-xs) {
+            padding-left: 0;
+            padding-top: 10px;
+          }
+          @media screen and (min-width: @screen-xs) and (max-width: @screen-sm) {
+            height: 203px;
+          }
         }
 
         &-text {
             max-height: 120px;
             .text-overflow();
             white-space: normal;
+          @media screen and (min-width: @screen-xs) and (max-width: @screen-md) {
+            max-height: 72px;
+          }
         }
         
         &-more {
             position: absolute;
-            bottom: 0;
+          bottom: -4px;
+          right: 133px;
+          width: 125px;
+          @media screen and (min-width: @screen-xs) and (max-width: @screen-md) {
             right: 0;
-            width: 172px;
+          }
             .btn {
-                width: 172px;
+              width: 145px;
             }
         }
 
@@ -224,6 +320,10 @@
             img {
                 display: block;
                 float: left;
+                max-width: 100%;
+                @media (max-width: @screen-sm) {
+                  float: none;margin: 0 auto;
+                }
             }
         }
 
@@ -232,8 +332,12 @@
             font-family: @font-ptsans-bold;
             font-size: 30px;
 
-            margin-bottom: 38px;
+            margin-bottom: 2px;
             margin-top: -1px;
+            overflow: hidden;
+            @media screen and (min-width: @screen-sm) {
+              max-height: 117px;
+            }
         }
     }
 }

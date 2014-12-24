@@ -15,8 +15,8 @@
     
     &:before {
         content: '';
-        .absolute(0,auto,auto,50%);
-        margin-left: -9px;
+        .absolute(0px,auto,auto,50%);
+        margin-left: -23px;
         border-top: 9px solid #fff;
         border-left: 9px solid transparent;
         border-right: 9px solid transparent;
@@ -27,9 +27,16 @@
     &-list {
 
         &__left {
-            padding-top: 44px;
+          padding-top: 28px;
+          margin-left: 87px;
+          @media screen and (max-width: @screen-xs){
+            margin-left: 7px;
+          }
+          @media screen and (max-width: @screen-sm){
+            margin-left: 20px;
+          }
             &-item {
-                margin: 15px 0;
+              margin: 18px 0;
 
                 &-img {
                     display: table-cell;
@@ -40,16 +47,25 @@
                 }
                 
                 ._text {
+                  @media screen and (min-width: @screen-xs){
+                    font-size: 18px;
+                    word-break: break-all;
+                  }
+                  @media screen and (min-width: @screen-sm){
+                    font-size: 18px;
+                  }
                     font-family: @font-ptsans-bold;
                     font-size: 26px;
                     display: table-cell;
+
                 }
             }
         }
 
         &__right {
-            margin-left: 110px;
-            margin-right: -110px;
+          margin-left: 94px;
+          margin-right: -74px;
+          margin-top: -16px;
             .footer-list__left-item {
                 margin: 10px 0 0;
 
@@ -59,7 +75,10 @@
                 }
             }
             &-item {
-                margin: 5px 0;
+              &._button {
+                margin-top: 10px;
+                padding-right: 35px;
+              }
             }
         }
 
@@ -76,7 +95,7 @@
         height: 163px;
         background-image: url("/assets/img/footer/bg-f.png");
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: 100% 100%;
         position: relative;
         img {
             .absolute(50%,auto,auto,left);

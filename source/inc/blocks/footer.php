@@ -44,7 +44,7 @@
                             <label for="" class="form__label">Ваше сообщение</label>
                             <textarea type="text" class="form__textarea"/></textarea>
                         </div>
-                        <div class="col-xs-12 footer-list__right-item">
+                        <div class="col-xs-12 footer-list__right-item _button">
                             <div class="btn btn-blue btn-md form__btn">Отправить</div>
                         </div>
                     </div>
